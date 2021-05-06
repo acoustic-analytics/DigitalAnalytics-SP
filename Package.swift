@@ -30,7 +30,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DAMod",
-            url: "https://github.com/acoustic-analytics/IBMTealeaf/releases/download/10.6.73/Tealeaf_XCFrameworks_Release.zip",
+            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.38/DAMod_XCFramework_Release.zip",
             checksum: "fe8d52566a6a4349156519b0580c67c8e629e42eceb25414431045b2c9fa677f"),
         .binaryTarget(
             name: "EOCore",
