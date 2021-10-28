@@ -14,6 +14,9 @@ import PackageDescription
 print("Using DAMod NON-Debug version, if you need debug version use https://github.com/acoustic-analytics/DigitalAnalyticsDebug-SP")
 let package = Package(
     name: "DAMod",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
