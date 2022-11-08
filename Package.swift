@@ -1,7 +1,8 @@
+
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2021 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -33,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DAMod",
-            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.49/DAMod_XCFramework_Release.zip",
-            checksum: "92498cefd8de263b396ab3263617861949ab89123da234f81dea4f07306982dd"),
+            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.93/DAMod_XCFramework_Release.zip",
+            checksum: "40c55a52a8deca85b36e235af0cc341623a57d34fabda1f27d960ec019304260"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.72/EOCore_XCFramework_Release.zip",
