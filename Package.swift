@@ -35,7 +35,7 @@ let package = Package(
         .binaryTarget(
             name: "DAMod",
             url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.99/DAMod_XCFramework_Release.zip",
-            checksum: "278fd10b8b334b94f4cef2daa734cd654abe4c1f47122a0431f24daa75e8e679"),
+            checksum: "033863cdd494d61719725e873a693db93fc760d9a1b8485a8fe18a2904c0146b"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.253/EOCore_XCFramework_Release.zip",
